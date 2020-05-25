@@ -1,6 +1,6 @@
 {
   "name": "randts",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Random number/string generator and utilities",
   "main": "src/index.ts",
   "scripts": {

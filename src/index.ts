@@ -9,3 +9,7 @@ function RandonString(length) {
   return result;
 }
 //console.log(RandonString(3));
+
+const RandString = RandonString;
+
+module.exports = RandString;

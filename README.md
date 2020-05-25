@@ -16,10 +16,10 @@ npm install randts --save
 
 ```ts
 // Import module (required only once):
-const RandonString = require("randts");
+const RandString = require("randts");
 
 // Test:
-console.log(RandonString(3));
+console.log(RandString(3));
 //returns a string of three characters.
 ```
 
