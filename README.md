@@ -16,7 +16,7 @@ npm install randts --save
 
 ```ts
 // Import module (required only once):
-const RandString = require("randts");
+import RandString from 'randts';
 
 // Test:
 console.log(RandString(3));
