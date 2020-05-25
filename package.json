@@ -1,0 +1,31 @@
+{
+  "name": "randts",
+  "version": "0.0.1",
+  "description": "Random number/string generator and utilities",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "node src/index.ts",
+    "start": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecnobert/randts.git"
+  },
+  "keywords": [
+    "random",
+    "random-generation",
+    "typescript",
+    "nodejs",
+    "nodejs-modules"
+  ],
+  "author": "Hebert F. Barros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tecnobert/randts/issues"
+  },
+  "homepage": "https://github.com/tecnobert/randts#readme",
+  "dependencies": {
+    "@types/node": "^14.0.5",
+    "typescript": "^3.9.3"
+  }
+}
