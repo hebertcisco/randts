@@ -5,7 +5,8 @@
     "main": "src/index.ts",
     "scripts": {
         "test": "node tests/index.test.ts",
-        "start": "node src/index.ts"
+        "start": "node src/index.ts",
+        "build": "tsc src/*.ts"
     },
     "repository": {
         "type": "git",
@@ -26,6 +27,7 @@
     "homepage": "https://github.com/tecnobert/randts#readme",
     "dependencies": {
         "@types/node": "^14.0.5",
+        "cpf-val": "^0.0.3",
         "prettier": "^2.0.5"
     },
     "devDependencies": {
