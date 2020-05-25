@@ -2,6 +2,8 @@
 
 Random number/string generator and utilities
 
+### > [Demo](https://npm.runkit.com/randts)
+
 ## Install
 
 > To install RandJS, simply run the command:
