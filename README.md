@@ -18,11 +18,14 @@ npm install randts --save
 
 ```ts
 // Import module (required only once):
-import RandString from 'randts';
+import RandString from 'randts'
 
 // Test:
-console.log(RandString(3));
+console.log(RandString(3))
 //returns a string of three characters.
+
+//console.log(RandNum(6))
+//returns a string of six numbers.
 ```
 
 Basically, just enter the size of the character to be generated.
