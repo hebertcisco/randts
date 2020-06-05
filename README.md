@@ -29,7 +29,7 @@ https://github.com/tecnobert/randts.git
 ```ts
 'use strict'
 
-const RandNum = require('../src/index')
+const RandNum = require('randts')
 
 // Configuring the random number generation
 const NumberConfig = new RandNum.Configuration()
