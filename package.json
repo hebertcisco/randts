@@ -42,5 +42,5 @@
         "node-fpe": "^1.0.0",
         "typescript": "^3.9.5"
     },
-    "version": "0.0.5"
+    "version": "0.0.6"
 }
