@@ -1,36 +1,46 @@
 {
     "name": "randts",
-    "version": "0.0.4",
+    "homepage": "https://www.npmjs.com/package/randts",
     "description": "Random number/string generator and utilities",
-    "main": "src/index.ts",
     "scripts": {
         "test": "node tests/index.test.ts",
         "start": "node src/index.ts",
         "build": "tsc src/*.ts"
     },
+    "keywords": [
+        "random-generation",
+        "random",
+        "number",
+        "integer",
+        "unique",
+        "unique-id",
+        "unique-identifier",
+        "timestamp",
+        "crypto",
+        "random-bytes",
+        "fpe",
+        "nodejs",
+        "node-js",
+        "javascript",
+        "js",
+        "length",
+        "randomization",
+        "randomized",
+        "algorithms"
+    ],
+    "author": "Hebert F. Barros <tecnobert@outlook.com> (https://github.com/tecnobert)",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tecnobert/randts.git"
+        "url": "git+https://github.com/tecnobert/randts"
     },
-    "keywords": [
-        "random",
-        "random-generation",
-        "typescript",
-        "nodejs",
-        "nodejs-modules"
-    ],
-    "author": "Hebert F. Barros",
-    "license": "ISC",
+    "main": "src/index.ts",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/tecnobert/randts/issues"
     },
-    "homepage": "https://github.com/tecnobert/randts#readme",
     "dependencies": {
-        "@types/node": "^14.0.5",
-        "cpf-val": "^0.0.3",
-        "prettier": "^2.0.5"
+        "node-fpe": "^1.0.0",
+        "typescript": "^3.9.5"
     },
-    "devDependencies": {
-        "typescript": "^3.9.3"
-    }
+    "version": "0.0.5"
 }
