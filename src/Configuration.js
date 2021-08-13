@@ -1,4 +1,4 @@
-import NumberLength from './NumberLength';
+const NumberLength  = require('./NumberLength.ts');
 
 class Configuration {
     /**
@@ -150,4 +150,4 @@ class Configuration {
     }
 }
 
-export default Configuration
+module.exports = Configuration

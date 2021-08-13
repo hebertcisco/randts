@@ -1,7 +1,7 @@
-import crypto from 'crypto';
-import fpe from 'node-fpe';
-import Configuration from './Configuration';
-import NumberLength from './NumberLength';
+const crypto = require('crypto');
+const fpe = require('node-fpe');
+const Configuration = require('./Configuration.js');
+const NumberLength = require('./NumberLength.ts');
 
 class AbstractRandomNumber {
     /**
@@ -115,4 +115,4 @@ class AbstractRandomNumber {
     }
 }
 
-export default AbstractRandomNumber
+module.exports = AbstractRandomNumber

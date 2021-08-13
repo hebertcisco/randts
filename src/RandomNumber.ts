@@ -1,5 +1,5 @@
-import AbstractRandomNumber from './AbstractRandomNumber';
-import Configuration from './Configuration';
+const AbstractRandomNumber = require('./AbstractRandomNumber.js');
+const Configuration = require('./Configuration.js');
 
 class RandomNumber extends AbstractRandomNumber {
     /**
@@ -36,4 +36,4 @@ class RandomNumber extends AbstractRandomNumber {
     }
 }
 
-export default RandomNumber
+module.exports = RandomNumber
