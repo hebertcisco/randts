@@ -1,6 +1,27 @@
-# Rand TS
+<p align="center">
+ <img width="100px" src="https://raw.githubusercontent.com/hebertcisco/randts/master/.github/images/favicon512x512-randts.png" align="center" alt=":package: randts" />
+ <h2 align="center">:package: randts</h2>
+ <p align="center">Random number generator and utilities</p>
+</p>
 
-Random number generator and utilities
+  <p align="center">
+    <a href="https://github.com/hebertcisco/randts/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/hebertcisco/randts?style=flat&color=336791" />
+    </a>
+    <a href="https://github.com/hebertcisco/randts/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/hebertcisco/randts?style=flat&color=336791" />
+    </a>
+     <a href="https://github.com/hebertcisco/randts">
+      <img alt="GitHub Downloads" src="https://img.shields.io/npm/dw/randts?style=flat&color=336791" />
+    </a>
+    <a href="https://github.com/hebertcisco/randts">
+      <img alt="GitHub Total Downloads" src="https://img.shields.io/npm/dt/randts?color=336791&label=Total%20downloads" />
+    </a>
+    <br />
+    <br />
+  <a href="https://github.com/hebertcisco/randts/issues/new/choose">Report Bug</a>
+  <a href="https://github.com/hebertcisco/randts/issues/new/choose">Request Feature</a>
+  </p>
 
 ### > [Demo](https://npm.runkit.com/randts)
 

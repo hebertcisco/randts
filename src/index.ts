@@ -1,8 +1,8 @@
-const Configuration = require('./Configuration.js')
-const NumberLength = require('./NumberLength.js')
-const AbstractRandomNumber = require('./AbstractRandomNumber.js')
-const RandomNumber = require('./RandomNumber.js')
-const RandomNumberTimestampBased = require('./RandomNumberTimestampBased.js')
+import Configuration from './Configuration.js';
+import NumberLength from './NumberLength';
+import AbstractRandomNumber from './AbstractRandomNumber.js';
+import RandomNumber from './RandomNumber.js';
+import RandomNumberTimestampBased from './RandomNumberTimestampBased.js';
 
 class RandNum {
     /**
@@ -53,7 +53,7 @@ class RandNum {
     }
 }
 
-module.exports = {
+export default {
     Configuration: Configuration,
     NumberLength: NumberLength,
     AbstractRandomNumber: AbstractRandomNumber,

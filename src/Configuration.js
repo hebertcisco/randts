@@ -1,4 +1,4 @@
-const NumberLength = require('./NumberLength.js')
+import NumberLength from './NumberLength';
 
 class Configuration {
     /**
@@ -150,4 +150,4 @@ class Configuration {
     }
 }
 
-module.exports = Configuration
+export default Configuration

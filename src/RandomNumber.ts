@@ -1,5 +1,5 @@
-const AbstractRandomNumber = require('./AbstractRandomNumber.js')
-const Configuration = require('./Configuration.js')
+import AbstractRandomNumber from './AbstractRandomNumber';
+import Configuration from './Configuration';
 
 class RandomNumber extends AbstractRandomNumber {
     /**
@@ -28,12 +28,12 @@ class RandomNumber extends AbstractRandomNumber {
 
         const number = Math.floor(
             Math.pow(10, length - 1) +
-                Math.random() *
-                    (Math.pow(10, length) - Math.pow(10, length - 1) - 1)
+            Math.random() *
+            (Math.pow(10, length) - Math.pow(10, length - 1) - 1)
         )
 
         return super._increaseNumberRandomness(number)
     }
 }
 
-module.exports = RandomNumber
+export default RandomNumber

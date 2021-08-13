@@ -1,7 +1,7 @@
-const AbstractRandomNumber = require('./AbstractRandomNumber.js')
-const Configuration = require('./Configuration.js')
-const RandomNumber = require('./RandomNumber.js')
-const NumberLength = require('./NumberLength.js')
+import AbstractRandomNumber from './AbstractRandomNumber.js';
+import Configuration from './Configuration.js';
+import RandomNumber from './RandomNumber.js';
+import NumberLength from './NumberLength.js';
 
 class RandomNumberTimestampBased extends AbstractRandomNumber {
     /**
@@ -115,4 +115,4 @@ class RandomNumberTimestampBased extends AbstractRandomNumber {
     }
 }
 
-module.exports = RandomNumberTimestampBased
+export default RandomNumberTimestampBased

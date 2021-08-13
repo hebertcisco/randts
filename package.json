@@ -28,19 +28,22 @@
         "randomized",
         "algorithms"
     ],
-    "author": "Hebert F. Barros <tecnobert@outlook.com> (https://github.com/tecnobert)",
+    "author": "Hebert F. Barros <hebertcisco@outlook.com> (https://github.com/hebertcisco)",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tecnobert/randts"
+        "url": "git+https://github.com/hebertcisco/randts"
     },
     "main": "src/index.ts",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/tecnobert/randts/issues"
+        "url": "https://github.com/hebertcisco/randts/issues"
     },
     "dependencies": {
         "node-fpe": "^1.0.0",
         "typescript": "^3.9.5"
     },
-    "version": "0.0.6"
+    "version": "0.0.7",
+    "devDependencies": {
+        "@types/node": "^16.6.1"
+    }
 }

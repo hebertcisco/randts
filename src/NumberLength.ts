@@ -58,4 +58,4 @@ class NumberLength {
     }
 }
 
-module.exports = NumberLength
+export default NumberLength
