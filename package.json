@@ -42,7 +42,7 @@
         "node-fpe": "^1.0.0",
         "typescript": "^3.9.5"
     },
-    "version": "0.0.7",
+    "version": "0.0.8",
     "devDependencies": {
         "@types/node": "^16.6.1"
     }

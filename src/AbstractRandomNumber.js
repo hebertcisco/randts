@@ -1,7 +1,7 @@
 import crypto from 'crypto';
 import fpe from 'node-fpe';
-import Configuration from './Configuration.js';
-import NumberLength from './NumberLength.js';
+import Configuration from './Configuration';
+import NumberLength from './NumberLength';
 
 class AbstractRandomNumber {
     /**

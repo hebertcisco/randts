@@ -1,8 +1,8 @@
-import Configuration from './Configuration.js';
+import Configuration from './Configuration';
 import NumberLength from './NumberLength';
-import AbstractRandomNumber from './AbstractRandomNumber.js';
-import RandomNumber from './RandomNumber.js';
-import RandomNumberTimestampBased from './RandomNumberTimestampBased.js';
+import AbstractRandomNumber from './AbstractRandomNumber';
+import RandomNumber from './RandomNumber';
+import RandomNumberTimestampBased from './RandomNumberTimestampBased';
 
 class RandNum {
     /**

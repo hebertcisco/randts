@@ -1,7 +1,7 @@
-import AbstractRandomNumber from './AbstractRandomNumber.js';
-import Configuration from './Configuration.js';
-import RandomNumber from './RandomNumber.js';
-import NumberLength from './NumberLength.js';
+import AbstractRandomNumber from './AbstractRandomNumber';
+import Configuration from './Configuration';
+import RandomNumber from './RandomNumber';
+import NumberLength from './NumberLength';
 
 class RandomNumberTimestampBased extends AbstractRandomNumber {
     /**
