@@ -39,7 +39,7 @@
         "url": "https://github.com/hebertcisco/randts/issues"
     },
     "dependencies": {
-        "node-fpe": "^1.0.0",
+        "node-fpe": "^2.0.0",
         "typescript": "^3.9.5"
     },
     "version": "0.0.9",
