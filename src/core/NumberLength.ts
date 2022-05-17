@@ -3,7 +3,7 @@ const MAX_SAFE_LENGTH: number = Number.MAX_SAFE_INTEGER.toString().length;
 export class NumberLength {
   private _value: number;
 
-  public constructor(length: number = 0) {
+  public constructor(length = 0) {
     this._value = this.computeLength(length);
     return this;
   }
