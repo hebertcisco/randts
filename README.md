@@ -112,9 +112,23 @@ RandomNumberTimestampBased {
 Done in 0.16s.
 ```
 
-# Contributing
+## 🤝 Contributing
 
-You can contribute to this project cloning this repository and in your clone you just need to create a new branch using a
-name related to the new functionality which you'll create.  
-When you finish your work, you just need to create a pull request which will be revised, merged to master branch (if the code
-doesn't break the project) and published as a new release.
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](issues).
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/hebertcisco/5rate-star)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+Or buy me a coffee 🙌🏾
+
+<a href="https://www.buymeacoffee.com/hebertcisco">
+    <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=hebertcisco&button_colour=FFDD00&font_colour=000000&font_family=Inter&outline_colour=000000&coffee_colour=ffffff" />
+</a>
+
+## 📝 License
+
+Copyright © 2022 [Hebert F Barros](https://github.com/hebertcisco).<br />
+This project is [MIT](LICENSE) licensed.
