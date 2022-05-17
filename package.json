@@ -4,7 +4,7 @@
   "description": "Random number/string generator and utilities",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.(js|ts)\"",
@@ -21,8 +21,8 @@
     "node-fpe": "^1.0.0"
   },
   "devDependencies": {
-    "@types/node": "16.11.22",
     "@types/jest": "27.4.0",
+    "@types/node": "16.11.22",
     "@typescript-eslint/eslint-plugin": "5.10.2",
     "@typescript-eslint/parser": "5.10.2",
     "eslint": "7.32.0",
