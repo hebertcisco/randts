@@ -51,7 +51,7 @@ class AbstractRandomNumber {
     const bytes = 256;
     const cipher = fpe({ password: crypto.randomBytes(bytes) });
 
-    let random = cipher.encrypt(number.toString());
+    const random = cipher.encrypt(number.toString());
     if (random.toString().charAt(0) === '0') {
       return this._increaseNumberRandomness(number);
     }
