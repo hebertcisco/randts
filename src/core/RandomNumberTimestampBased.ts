@@ -20,7 +20,7 @@ class RandomNumberTimestampBased extends AbstractRandomNumber {
     this._verifyLength();
 
     let value = this._timestamp.toString();
-    let numberLength = this.getLength().getValue();
+    const numberLength = this.getLength().getValue();
 
     if (numberLength > this._timestampLength.getValue()) {
       value += this._generatePad().getValue().toString();
