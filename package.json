@@ -4,7 +4,7 @@
   "description": "Random number/string generator and utilities",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.(js|ts)\"",
