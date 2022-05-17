@@ -1,49 +1,68 @@
 {
-    "name": "randts",
-    "homepage": "https://www.npmjs.com/package/randts",
-    "description": "Random number/string generator and utilities",
-    "scripts": {
-        "test": "node tests/index.test.ts",
-        "start": "node src/index.ts",
-        "build": "tsc src/*.ts"
-    },
-    "keywords": [
-        "random-generation",
-        "random",
-        "number",
-        "integer",
-        "unique",
-        "unique-id",
-        "unique-identifier",
-        "timestamp",
-        "crypto",
-        "random-bytes",
-        "fpe",
-        "nodejs",
-        "node-js",
-        "javascript",
-        "js",
-        "length",
-        "randomization",
-        "randomized",
-        "algorithms"
-    ],
-    "author": "Hebert F. Barros <hebertcisco@outlook.com> (https://github.com/hebertcisco)",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/hebertcisco/randts"
-    },
-    "main": "src/index.ts",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/hebertcisco/randts/issues"
-    },
-    "dependencies": {
-        "node-fpe": "^1.0.0",
-        "typescript": "^4.0.0"
-    },
-    "version": "0.0.9",
-    "devDependencies": {
-        "@types/node": "16.11.22"
-    }
+  "name": "randts",
+  "homepage": "https://www.npmjs.com/package/randts",
+  "description": "Random number/string generator and utilities",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "version": "0.0.9",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.(js|ts)\"",
+    "lint": "eslint src --ext .js,.ts",
+    "lint:fix": "eslint src --fix --ext .js,.ts",
+    "test": "jest --config jest.config.js",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "dependencies": {
+    "node-fpe": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.22",
+    "@types/jest": "27.4.0",
+    "@typescript-eslint/eslint-plugin": "5.10.2",
+    "@typescript-eslint/parser": "5.10.2",
+    "eslint": "7.32.0",
+    "eslint-plugin-jest": "26.0.0",
+    "jest": "27.4.7",
+    "prettier": "2.5.1",
+    "ts-jest": "27.1.3",
+    "typescript": "^4.0.0"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "author": "Hebert F. Barros <hebertcisco@outlook.com> (https://github.com/hebertcisco)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hebertcisco/randts"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hebertcisco/randts/issues"
+  },
+  "keywords": [
+    "random-generation",
+    "random",
+    "number",
+    "integer",
+    "unique",
+    "unique-id",
+    "unique-identifier",
+    "timestamp",
+    "crypto",
+    "random-bytes",
+    "fpe",
+    "nodejs",
+    "node-js",
+    "javascript",
+    "js",
+    "length",
+    "randomization",
+    "randomized",
+    "algorithms"
+  ]
 }
