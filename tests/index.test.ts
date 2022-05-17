@@ -1,27 +1,29 @@
-'use strict'
+'use strict';
 
-const RandNum = require('../src/index')
+import RandNum, { Configuration } from '../src/index';
 
-// Configuring the random number generation
-const NumberConfig = new RandNum.Configuration()
-NumberConfig.setMinLength(4)
-NumberConfig.setMaxLength(RandNum.NumberLength.getMaxSafeLength())
-
-// Generates a random number
-const RandomNumber = new RandNum.Generator(NumberConfig)
-console.log('Random Number:')
-console.log(RandomNumber.getNumber())
-console.log('\n')
-console.log('Random Number Value:', RandomNumber.getNumber().getValue())
-console.log('\n')
-
-// Reconfiguring the random number generation
-NumberConfig.reset()
-NumberConfig.timestampBased()
-NumberConfig.setMinLength(15)
-NumberConfig.setMaxLength(RandNum.NumberLength.getMaxSafeLength())
-
-// Generates a random number timestamp based
-const RandomNumberTimestampBased = new RandNum.Generator(NumberConfig)
-console.log('Random Number timestamp based:')
-console.log(RandomNumberTimestampBased.getNumber())
+describe('RandNum', () => {
+  let NumberConfig: Configuration;
+  let MAX_SAFE_LENGTH: number;
+  beforeAll(() => {
+    NumberConfig = new RandNum.Configuration();
+    MAX_SAFE_LENGTH = RandNum.NumberLength.getMaxSafeLength();
+  });
+  beforeEach(() => {
+    NumberConfig.reset();
+    NumberConfig.timestampBased();
+    NumberConfig.setMinLength(15);
+    NumberConfig.setMaxLength(MAX_SAFE_LENGTH);
+  });
+  it('Configuring the random number generation', () => {
+    NumberConfig.setMinLength(4);
+    NumberConfig.setMaxLength(MAX_SAFE_LENGTH);
+    const RandomNumber = new RandNum.Generator(NumberConfig);
+    console.log('Random Number:');
+    console.log(RandomNumber.getNumber());
+    console.log('\n');
+    process.stdout.write(`Random Number Value: ${RandomNumber.getNumber().getValue()}\n`);
+    const expectMaxLength = NumberConfig.getMaxLength().getValue(); // 16
+    expect(expectMaxLength).toBe(16);
+  });
+});
